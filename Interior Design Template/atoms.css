@@ -1,0 +1,90 @@
+/* TYPOGRAPHY, GENERAL RULES */
+body,
+button, 
+a {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 700;
+    font-size: 17.6px;
+}
+
+p {
+    font-weight: 400;
+    color:rgb(146, 145, 145);
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+a {
+    color:rgb(12, 11, 11);
+}
+
+/* ATOM ELEMENTS STYLING */
+.line {
+    background-color: #ffffff;
+    height: 2px;
+    width: 40px;
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+/* NAVBAR STYLING */
+.logo {
+    font-size: 1.8rem;
+}
+
+.navbar-button {
+    border:0;
+    padding: 15px 25px;
+    background-color: #af938f;
+    border: 1px solid #af938f;
+}
+    .navbar-button:hover {
+        background-color: #7a635f;
+        border: 1px solid #7a635f;
+        transition: all 0.3s ease-in 0s;
+        cursor: pointer;
+    }
+        .navbar-button a {
+            color:#fff;
+        }
+
+/* PRICING TABLE */
+.pricing-plan-white-background button {
+    padding: 17px 30px;
+    border:0;
+    border-radius: 30px;
+    background-color: rgb(100, 99, 99);
+    color:white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.pricing-plan-white-background button:hover {
+    background-color:#af938f;
+    transition: all 0.5s ease 0s;
+}
+
+/* ANIMATIONS */
+/* GREY HOVER TRANSITIONS */
+.grey-transition:hover, .grey-transition a:hover {
+    color: rgb(179, 177, 177);
+    transition: all 0.3s ease-in 0s;
+}
+
+/* BLUE HOVER TRANSITIONS */
+.blue-transition:hover, .blue-transition a:hover {
+    color: rgb(85, 180, 164);
+    transition: all 0.3s ease-in 0s;
+}
+
+/* IMAGE TRANSITIONS */
+.gallery-container img:hover {
+    opacity: 80%;
+    transition: all 0.8s ease-in 0s;
+    cursor: pointer;
+}

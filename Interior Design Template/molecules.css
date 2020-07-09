@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR STYLING */
+li {
+    list-style: none;
+}
+
+/* HERO STYLING */
+.hero-social-media {
+    font-size: 2.2rem;
+    margin: 0 12px;
+}
+.hero-heading {
+    font-size: 3.3rem;
+    /* gives space between social media icons & sub-heading */
+    padding: 5% 0;
+    padding-bottom: 1%;
+    font-weight: 500;
+}
+.hero-subheading {
+    font-size: 1.3rem;
+    padding-bottom: 6%;
+}
+.hero-links a {
+    color:rgb(112, 110, 110);
+    padding: 0 10px;
+}
+
+/* GALLERY STYLING */
+.gallery-container img {
+    width:24.7%;
+    height: auto;
+    margin:auto;
+}
+
+/* INFORMATION CARDS */
+.information-cards-container {
+    position: relative;
+    bottom: 110px;
+    margin-bottom: -35px;
+}
+.information-cards {
+    width: 30%;
+    height: 430px;
+    margin: 0 1%;
+    padding: 3%;
+    background-color: white;
+    box-shadow: 1px 2px 30px rgb(221, 220, 220);
+}
+    .information-cards-heading {
+        font-size: 1.3rem;
+        padding: 10px 0;
+        margin-bottom: 30px;
+        border-bottom: 1px solid rgb(17, 16, 16);
+        width:145px;
+    }
+    .information-cards-heading-2 {
+        width:175px;
+    }
+    .information-cards-heading-3 {
+        width:160px;
+    }
+        .information-cards p {
+            margin-bottom: 30px;
+        }
+
+/* PRODUCT INFORMATION STYLING */
+.product-information-container {
+    background-image: url(images/sofa.jpg);
+    background-repeat: no-repeat;
+}
+.product-information {
+    background-color:rgba(17, 16, 16, 0.65);
+    width:35%;
+    padding: 6.5% 3.5%;
+}
+    .product-information-heading {
+        font-size: 2.8rem;
+        color:rgb(248, 248, 248);
+        padding-bottom: 50px;
+    }
+        .product-information-subheading {
+            font-size: 1.8rem;
+            color:  #ce8074;
+            padding: 4px 0;
+        }
+            .product-information p {
+                color:white;
+                padding-bottom: 40px;
+            }
+                .product-information a {
+                    color:rgb(241, 241, 241);
+                    border-bottom: 2.5px solid #ce8074;
+                    padding-bottom: 10px;
+                }
+
+/* ABOUT US STYLING */
+.about-us-heading {
+    font-size: 3.3rem;
+    padding-bottom: 35px;
+}  
+    .about-us p {
+        padding-bottom: 35px;
+    }
+    .about-us a {
+        padding-bottom: 10px;
+        border-bottom: 5px solid rgb(221, 221, 221);
+    }
+.about-us-testimonials-div {
+    margin: 0 3.5%;
+}
+    .about-us-testimonials-div h1 {
+        font-size: 3.3rem;
+        padding-bottom: 15px;
+    }
+        .about-us-testimonials-div h2 {
+            font-size: 1.2rem;
+            color:rgb(148, 146, 146);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+/* SERVICES INFORMATION STYLING */
+.services-information-block {
+    background-color: white;
+    width:22%;
+    text-align: center;
+    padding: 3%;
+}
+    .services-information-block img {
+        width:40%;
+    }
+        .services-information-block h1 {
+            font-size: 1.6rem;
+            padding:20px 0;
+        }
+.item1 {
+    background-image: url(images/01.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.item3 {
+    background-image: url(images/02.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.item4 {
+    background-image: url(images/03.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.item6 {
+    background-image: url(images/04.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+/* FEATURES AND INFORMATION STYLING */
+.features-information-container {
+    background-color: rgb(240, 236, 236);
+    padding: 3.5%;
+}
+.features-information-text {
+    width:52%;
+    padding-right: 3%;
+}
+.features-information-text h1 {
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+    .features-information-text h2 {
+        font-size: 1.2rem;
+        color:grey;
+        padding-bottom: 8px;
+    }
+.features-information-benefits td{
+    font-size: 1.25rem;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    width: 550px;
+}
+
+/* PRICING TABLE STYLING */
+.pricing-table-container, .our-team-container {
+    background-image: linear-gradient(rgba(15, 14, 14, 0.8), rgba(22, 21, 21, 0.8)), url(images/03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.starter-plan, .advanced-plan, .enterprise-plan {
+    width: 30%;
+    padding: 5% 1%;
+}
+.pricing-plan-black-background {
+    background-color:rgb(31, 30, 30);
+}
+    .pricing-plan-black-background img {
+        width:120px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .pricing-plan-black-background h1 {
+        font-size: 2rem;
+        color: #ce8074;
+        padding-bottom: 8px;
+    }
+        .pricing-table-subheading {
+            color:white;
+            padding-bottom: 35px;
+        }
+.pricing-plan-black-background, 
+.pricing-plan-white-background {
+    padding: 6% 0;
+    padding-bottom: 10%;
+    text-align: center;
+}
+.pricing-plan-white-background {
+    background-color:white;
+}
+    .pricing-plan-white-background h1 {
+        font-size: 2.6rem;
+    }
+        span.dollar-sign {
+            font-size: 1.8rem;
+        }
+        span.a-month {
+            font-size: 1rem;
+        }
+.pricing-plan-white-background table {
+    width:100%;
+    padding: 20px 0;
+}
+    .pricing-plan-white-background td {
+        font-weight: 400;
+        padding: 15px 0;
+        border-bottom: 1px solid rgb(233, 231, 231);
+    }
+
+/* OUR STORY STYLING */
+.our-story-container {
+    margin:auto;
+    padding: 3%;
+}
+.our-story-text {
+    width:60%;
+}
+    .our-story-text h1 {
+        font-size: 3rem;
+        padding-bottom: 25px;
+        border-bottom: 3px #e7c6c1 solid;
+        margin-bottom: 40px;
+    }
+        .our-story-text h2 {
+            font-size: 1.2rem;
+            color:grey;
+        }
+
+.our-story-image img {
+    width:600px;
+    padding-left: 50px;
+}
+
+/* OUR TEAM STYLING */
+.our-team-container {
+    padding: 5%;
+    text-align: center;
+}
+    .our-team-container-heading, 
+    .our-team-container-subheading{
+        color:white;
+    }
+    .our-team-container-heading {
+        font-size: 1.8rem;
+        padding-top:5px;
+    }
+        .our-team-container-subheading {
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+.our-team-block {
+    padding: 50px 0;
+    margin: auto;
+    text-align: left;
+}
+    .our-team-block img {
+        width:301px;
+    }
+    .our-team-block h1 {
+        font-size: 1.25rem;
+        color: #bd877f;
+        padding: 30px 0;
+        padding-bottom: 10px;
+    }
+        .our-team-block p {
+            font-weight: 600;
+            color:rgb(185, 184, 184);
+        }
+
+/* TESTIMONAL SECTION STYLING */
+.testimonial-section-container {
+    text-align: center;
+    padding: 5%;
+}
+    .testimonial-section-container-heading {
+        font-size: 1.8rem;
+    }
+        #testimonial-section-container-image {
+            width:140px;
+            padding: 30px 0;
+        }
+        .testimonial-section-container-paragraph {
+            width: 60%;
+            color:black;
+            font-weight: 600;
+            margin: auto;
+            padding-bottom: 35px;
+        }
+img#testimonial-image {
+    border-radius: 50%;
+    width:70px;
+}
+span.client-name,
+span.client-job {
+    
+    font-weight: 700;
+}
+    span.client-name {
+        color:black;
+    }
+
+/* BOTTOM SECTION STYLING */
+.bottom-section-container-image,
+ .contact-info-section {
+    width: 30%;
+}
+.bottom-section-container-image {
+    background-image: url(images/02.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.contact-info-section {
+    background-color:white;
+    padding: 3%;
+    text-align: center;
+}
+    .contact-info-section h1 {
+        font-size: 1.7rem;
+        padding: 15px 0;
+    }
+    .contact-info-section img {
+        width: 80px;
+    }
+
+/* FOOTER STYLING */
+.footer-container {
+    background-color: rgb(31, 30, 30);
+    padding: 55px 2%;
+}
+.inner-footer {
+    margin-bottom: 80px;
+}
+.footer-section {
+    width: 30%;
+    margin: 0 20px;
+}
+    .footer-section-1, .footer-section-4 {
+        width: 40%;
+    }
+    .footer-section-1 h1 a, .footer-section h2 {
+        font-size: 1.2rem;
+        padding-bottom: 20px;
+        color:rgb(248, 247, 247);
+    }
+    .footer-section-1 h1 a {
+        font-size: 1.8rem;
+    }
+    .footer-section-1 h1 {
+        padding-bottom: 15px;
+    }
+        .footer-section td {
+            padding: 10px 0;
+            border-bottom: 1px rgb(51, 51, 51) solid;
+            width:300px;
+        }
+        .footer-section td a {
+            color:rgb(160, 160, 160);
+            font-weight: 400;
+        }
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.recent-trips-grid img {
+    width: 100px;
+    height:100%;
+}
+.footer-social-media i {
+    color: rgb(190, 140, 149);
+    font-size: 1.2rem;
+    padding: 0 8px;
+}
+.copyright p {
+    color: rgb(190, 140, 149);
+}

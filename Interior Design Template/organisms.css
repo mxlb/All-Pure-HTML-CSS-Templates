@@ -1,0 +1,81 @@
+/* DUPLICATES */
+.navbar-container,
+.information-cards-container,
+.product-information-container,
+.about-us-testimonials,
+.services-information-container-1, 
+.services-information-container-2,
+.features-information-container,
+.pricing-table-container,
+.our-story-container,
+.our-team-inner-container,
+.bottom-section-container,
+.inner-footer {
+    display: flex;
+}
+
+.information-cards-container,
+.about-us-testimonials,
+.pricing-table-container {
+    justify-content: center;
+}
+/* NAVBAR */
+.navbar-container {
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+    /* makes navbar stick to top of page */
+    top:0;
+    position:fixed;
+    width:100%;
+    z-index:3;
+}
+    .navbar-container li {
+        display:inline;
+        margin: 0 20px;
+    }
+
+/* HERO */
+.hero-container {
+    background-color: rgb(196, 196, 196);
+    padding:270px 10% 180px 10%;
+    text-align: center;
+}
+
+/* GALLERY */
+.gallery-container {
+    background-image: url(images/white-bricks.jpg);
+    background-repeat: repeat-x;
+    padding-bottom: 25%;
+    text-align: center;
+}
+
+/* PRODUCT INFORMATION */
+.product-information-container {
+    justify-content: flex-end;
+}
+
+/* ABOUT US */
+.about-us {
+    text-align: center;
+    padding:4%;
+}
+    .about-us-testimonials {
+        padding: 3% 0;
+        text-align: center;
+    }
+
+/* SERVICES INFORMATION */
+.item1, .item6 {
+    flex: 2.3;
+}
+.item2, .item3, .item4, .item5 {
+    flex: 1;
+}
+
+/* OUR TEAM */
+.our-team-inner-container {
+    flex-wrap:wrap;
+}

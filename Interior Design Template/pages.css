@@ -1,0 +1,172 @@
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width:600px) {
+
+    /* TYPGRAPHY */ 
+    body,
+    button, 
+    a {
+        font-size: 15px;
+    }
+    /* GALLERY */
+    .gallery-container img {
+        width:100%;
+    }
+    .product-information-container {
+        text-align: center;
+    }
+}
+
+/* TABLET RESPONSIVE */
+@media screen and (max-width:900px) {
+    /* DUPLICATES */
+    .information-cards-container,
+    .product-information-container, 
+    .features-information-container, 
+    .pricing-table-container,
+    .our-story-container,
+    .bottom-section-container {
+        flex-direction: column;
+    }
+
+    /* NAVBAR */
+    .navbar-container li, .navbar-button {
+        display:none;
+    }
+
+    /* HERO */
+    .hero-heading {
+        font-size: 2.5rem;
+    }
+        .hero-subheading {
+            font-size: 1.2rem;
+        }
+    
+    .hero-links a {
+        font-size: 1rem;
+    }
+    /* GALLERY */
+    .gallery-container img {
+        width:49.5%;
+    }
+    /* INFORMATION CARDS */
+    .information-cards {
+        width: 50%;
+        height: 30%;
+        margin: 10px auto;
+        padding: 1.5%;
+        box-shadow: none;
+    }
+    /* PRODUCT INFORMATION */
+    .product-information {
+        width: 100%;
+        padding: 10%;
+        
+    }
+    /* ABOUT US */
+    .about-us-testimonials {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 2%;
+    }
+        .about-us-testimonials-div {
+            margin: 6% 0;
+        }
+    /* SERVICES INFORMATION */
+    .services-information-container-1, .services-information-container-2 {
+        flex-direction: column;
+        width:100%;
+    }
+        .services-information-block {
+            width: 100%;
+            padding: 50px 0;
+        }
+        .item1, .item3, .item4, .item6 {
+            padding: 200px 0;
+        }
+    /* FEATURES INFORMATION */
+    .features-information-text {
+        width:100%;
+        padding-bottom: 40px;
+    }
+    
+    /* PRICING TABLE */
+    .starter-plan, .advanced-plan, .enterprise-plan {
+        width:80%;
+        margin: auto;
+    }
+
+    /* OUR STORY */
+    .our-story-text {
+        width:100%;
+        padding-bottom: 50px;
+    }
+        .our-story-image {
+            margin: auto;
+        } 
+
+    /* OUR TEAM */
+    .our-team-block {
+        padding: 25px 0;
+    }
+
+    /* BOTTOM SECTION */
+    .bottom-section-container-image, 
+    .contact-info-section, 
+    .google-map-section iframe,
+    .footer-section {
+        width:100%;
+    }
+    .bottom-section-container-image {
+        padding: 220px;
+    }
+    .contact-info-section {
+        padding: 50px 0;
+    }
+
+    /* FOOTER */
+    .footer-container {
+        padding: 7% 6.5%;
+    }
+    .inner-footer {
+        display: grid;
+        grid-template-areas: 'info info info info'
+        'contact contact link link'
+        'trip trip trip trip';
+        }
+            .footer-section-1 {
+                grid-area: info;
+            }
+            .footer-section-2 {
+                grid-area: contact;
+            }
+            .footer-section-3{
+                grid-area: link;
+            }
+            .footer-section-4 {
+                grid-area: trip;
+                text-align: center;
+            }
+                .recent-trips-grid {
+                    padding: 30px 0;
+                }
+                .recent-trips-grid img {
+                    padding: 5px;
+                    width: 200px;
+                    
+                }
+    .footer-section {
+        margin: auto;
+        padding: 3% 0;
+    }
+    .bottom-footer {
+        flex-direction: column;
+    }
+        .footer-social-media {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .copyright {
+            text-align: right;
+        }
+}
